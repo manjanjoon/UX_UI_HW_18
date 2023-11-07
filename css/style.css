@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: 'Avenir', sans-serif;
+}
+
+header {
+    overflow: visible;
+    background-color: #ffffff;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 250px 50px 250px;
+}
+
+header .logo {
+    width: 50px; 
+    height: auto; 
+    padding: 10px;
+}
+
+.logo {
+    outline: 1px solid red;
+}
+.twoColumns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.Maneliimage {
+    outline: 1px solid red;
+    width: 50%;
+    text-align: right;
+    /*padding-top: 168px;
+    padding-left: 344px;*/
+}
+
+.text {
+    float: right;
+    outline: 1px solid rgb(255, 0, 0);
+    font-weight: bold;
+    width: 50%;
+   /* padding-top: 168px;*/
+    letter-spacing: 10px;
+}
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+    background-color: #DAD6CA;
+    letter-spacing: 0px;
+    font-family: avenir;
+    font-size: 18px;
+    
+}
+
+.first-heading {
+    color: black;
+    font-family: 'Avenir';
+    letter-spacing: -6px;
+    font-size: 90px;
+
+}
+
+.second-heading {
+    color: black;
+    text-align: left;
+    font-family: 'Avenir', sans-serif;
+    letter-spacing: -4px;
+    font-size: 50px;
+}
+
+.third-heading {
+    color: black;
+    text-align: left;
+    font-family: 'Avenir', sans-serif;
+    letter-spacing: -4px;
+    font-size: 35px;
+}
+
+p {
+    color: black;
+    font-size: 16px;
+}
+
+
+footer {
+    background-color: #848484;
+    padding: 70px;
+}
+ footer ul {
+list-style-type: square;
+ }
+
+ footer ul li {
+    color: white;
+    font-size: 18px;
+ }
+
+ header ul li {
+list-style-type: none;
+display: inline-block;
+vertical-align: top;
+
+}
