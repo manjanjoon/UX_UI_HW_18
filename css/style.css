@@ -52,11 +52,12 @@ header .logo {
    flex-wrap: nowrap;
     margin: 30px;
     padding: 10px 10px 10px 10px;
+}
 
+.drawing{
+    outline: 1px solid red;
 }
-.p{
-    
-}
+
 .flexcontainer{
     display: flex;
     flex-wrap: nowrap;
