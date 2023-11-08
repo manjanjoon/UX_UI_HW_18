@@ -46,26 +46,36 @@ header .logo {
    /* padding-top: 168px;*/
     letter-spacing: 10px;
 }
+.flexcontainer{
+    outline: 1px solid rgb(255, 0, 0);
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    padding: 10px 10px 10px 146px;
 
+}
 body, h1, p {
+    outline: 1px solid rgb(255, 0, 0);
     margin: 0;
     padding: 0;
     background-color: #DAD6CA;
     letter-spacing: 0px;
-    font-family: avenir;
+    font-family: 'Lato';
     font-size: 18px;
     
 }
 
 .first-heading {
+    outline: 1px solid rgb(255, 0, 0);
     color: black;
-    font-family: 'Avenir';
+    font-family: 'Lato';
     letter-spacing: -6px;
     font-size: 90px;
 
 }
 
 .second-heading {
+    outline: 1px solid rgb(255, 0, 0);
     color: black;
     text-align: left;
     font-family: 'Avenir', sans-serif;
@@ -74,6 +84,7 @@ body, h1, p {
 }
 
 .third-heading {
+    outline: 1px solid rgb(255, 0, 0);
     color: black;
     text-align: left;
     font-family: 'Avenir', sans-serif;
@@ -88,6 +99,7 @@ p {
 
 
 footer {
+    outline: 1px solid rgb(255, 0, 0);
     background-color: #848484;
     padding: 70px;
 }
