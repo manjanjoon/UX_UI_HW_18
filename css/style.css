@@ -28,6 +28,7 @@ header .logo {
     justify-content: space-between;
     max-width: 1000px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 .Maneliimage {
@@ -46,12 +47,22 @@ header .logo {
    /* padding-top: 168px;*/
     letter-spacing: 10px;
 }
-.flexcontainer{
+.myskills{
     outline: 1px solid rgb(255, 0, 0);
+   flex-wrap: nowrap;
+    margin: 30px;
+    padding: 10px 10px 10px 10px;
+
+}
+.p{
+    
+}
+.flexcontainer{
     display: flex;
     flex-wrap: nowrap;
     margin: 30px;
-    padding: 10px 10px 10px 146px;
+    padding: 10px 10px 10px 10px;
+    
 
 }
 body, h1, p {
@@ -78,8 +89,8 @@ body, h1, p {
     outline: 1px solid rgb(255, 0, 0);
     color: black;
     text-align: left;
-    font-family: 'Avenir', sans-serif;
-    letter-spacing: -4px;
+    font-family: 'lato', sans-serif;
+    letter-spacing: -3px;
     font-size: 50px;
 }
 
@@ -87,16 +98,28 @@ body, h1, p {
     outline: 1px solid rgb(255, 0, 0);
     color: black;
     text-align: left;
-    font-family: 'Avenir', sans-serif;
-    letter-spacing: -4px;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: -2px;
     font-size: 35px;
 }
 
 p {
+    outline: 1px solid rgb(255, 0, 0);
     color: black;
     font-size: 16px;
+    font-family:'lato';
 }
 
+
+.flexcontainer > div{
+    outline: 1px solid rgb(255, 0, 0);
+    background-color: #ffffff;
+    width: 1000px;
+    height: 300px;
+    padding: 40px 0px 0px 40px;
+    margin: 40px 20px 0px 20px;
+
+}
 
 footer {
     outline: 1px solid rgb(255, 0, 0);
