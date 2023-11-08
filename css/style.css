@@ -47,35 +47,7 @@ header .logo {
    /* padding-top: 168px;*/
     letter-spacing: 10px;
 }
-.myskills{
-    outline: 1px solid rgb(255, 0, 0);
-   flex-wrap: nowrap;
-    margin: 30px;
-    padding: 10px 10px 10px 10px;
-}
 
-.drawing{
-    outline: 1px solid red;
-}
-
-.flexcontainer{
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 30px;
-    padding: 10px 10px 10px 10px;
-    
-
-}
-body, h1, p {
-    outline: 1px solid rgb(255, 0, 0);
-    margin: 0;
-    padding: 0;
-    background-color: #DAD6CA;
-    letter-spacing: 0px;
-    font-family: 'Lato';
-    font-size: 18px;
-    
-}
 
 .first-heading {
     outline: 1px solid rgb(255, 0, 0);
@@ -97,7 +69,7 @@ body, h1, p {
 
 .third-heading {
     outline: 1px solid rgb(255, 0, 0);
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: left;
     font-family: 'Lato', sans-serif;
     letter-spacing: -2px;
@@ -105,29 +77,134 @@ body, h1, p {
 }
 
 p {
-    outline: 1px solid rgb(255, 0, 0);
+    outline: 1px solid rgb(98, 255, 0);
     color: black;
     font-size: 16px;
     font-family:'lato';
 }
-
-
-.flexcontainer > div{
+.mywork{
     outline: 1px solid rgb(255, 0, 0);
+   flex-wrap: nowrap;
+    margin: 30px;
+    padding: 0px 0px 10px 10px;
+    background-color: #ffffff;
+}
+
+.title{
+    outline: 1px solid red; 
+    font-family: 'lato'; 
+    font-size: 50px;
+    width: 20%;
+    letter-spacing:-4px;
+    padding: 0px 0 px 0px 0px;
+    margin: 0px 20px 0px 50px ;
+}
+.linedrawing{
+    outline: 1px solid red;  
+    padding: 0px 0px 0px 40px; 
+    margin: 0px 20px 0px 0px;
+}
+
+.flexcontainer{
+    outline: 1px solid rgb(85, 0, 255);  
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    padding: 0px 0px 0px 0px;
+}
+.flexcontainer > 
+div{
+    outline: 1px solid rgb(102, 255, 0);
     background-color: #ffffff;
     width: 1000px;
-    height: 300px;
-    padding: 40px 0px 0px 40px;
-    margin: 40px 20px 0px 20px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 
 }
+body, h1, p {
+    outline: 1px solid rgb(255, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-color: #DAD6CA;
+    letter-spacing: 0px;
+    font-family: 'Lato';
+    font-size: 18px;
+    
+
+.main { 
+    outline: 1px solid #000000;
+   
+    width: 200px;
+    height: 2000px;
+    .myskills{
+    outline: 1px solid #ff0000;
+   flex-wrap: nowrap;
+    margin: 30px;
+    padding: 0px 0px 10px 10px;
+    background-color: #ffffff;
+}
+
+.title{
+    outline: 1px solid rgb(255, 0, 0); 
+    font-family: 'lato'; 
+    font-size: 50px;
+    width: 20%;
+    letter-spacing:-4px;
+    padding: 0px 0 px 0px 0px;
+    margin: 0px 20px 0px 50px ;
+}
+.linedrawing{
+    outline: 1px solid red;  
+    padding: 0px 0px 0px 40px; 
+    margin: 0px 20px 0px 0px;
+}
+
+
+.flexcontainer{
+    outline: 1px solid rgb(85, 0, 255);  
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    padding: 0px 0px 0px 0px;
+}
+.flexcontainer > 
+div{
+    outline: 1px solid rgb(102, 255, 0);
+    background-color: #ffffff;
+    width: 1000px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+
+}
+}
+body, h1, p {
+    outline: 1px solid rgb(255, 0, 0);
+    margin: 0;
+    padding: 0;
+    background-color: #DAD6CA;
+    letter-spacing: 0px;
+    font-family: 'Lato';
+    font-size: 18px;
+    
+}
+
+
+
+}
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+}    
 
 footer {
     outline: 1px solid rgb(255, 0, 0);
     background-color: #848484;
     padding: 70px;
 }
- footer ul {
+.footer ul {
 list-style-type: square;
  }
 
@@ -136,9 +213,4 @@ list-style-type: square;
     font-size: 18px;
  }
 
- header ul li {
-list-style-type: none;
-display: inline-block;
-vertical-align: top;
 
-}
