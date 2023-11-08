@@ -108,6 +108,16 @@ p {
     color: #ff0000;
 }
 
+.aboutme{
+    
+    outline: 1px solid rgb(201, 58, 58); 
+    display: flex;
+    justify-content:space-evenly;
+    margin: 30px 30px 30px 30px;
+    padding: 0 0 10 10;
+
+}
+
 .myskills{
     outline: 1px solid red; 
     flex-wrap: nowrap;
@@ -125,14 +135,13 @@ p {
     margin: 0px 20px 0px 50px ;
 }
 
-
 .linedrawing{
     outline: 1px solid red;  
     padding: 0px 0px 0px 40px; 
     margin: 0px 20px 0px 0px;
 }
 
-.flexcontainer{
+.flexcontainer-1{
     outline: 1px solid rgb(85, 0, 255);  
     display: flex;
     flex-wrap: nowrap;
@@ -140,19 +149,40 @@ p {
     padding: 10px 10px 10px 10px;
     text-align:left;
 }
-.flexcontainer
+.flexcontainer-4
 
 div{
     outline: 1px solid rgb(102, 255, 0);
-    background-color: #971e1e;
+    background-color: #ffffff;
+    width: 1350px;
+    height: 200px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    display: inline-flex;
+    
+
+}
+/*.flexcontainer{
+    outline: 1px solid rgb(33, 188, 227);  
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 30px;
+    padding: 0px 0px 0px 0px;
+    display: inline-flex;
+}*/
+.flexcontainer> div {
+    outline: 1px solid rgb(255, 0, 0);
+    background-color: #ffffff;
     width: 1000px;
     height: 200px;
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
+    display: inline-flex;
+   
 
 }
 body, h1, p {
-    outline: 1px solid rgb(255, 0, 0);
+    outline: 1px solid rgb(246, 255, 0);
     margin: 0;
     padding: 0;
     background-color: #DAD6CA;
@@ -174,7 +204,9 @@ body, h1, p {
     padding: 0px 0px 10px 10px;
     background-color: #ffffff;
     font-size: 50px;
+    flex-direction: row;
 }
+
 
 .title{
     outline: 1px solid rgb(201, 58, 58); 
@@ -191,25 +223,6 @@ body, h1, p {
     margin: 0px 20px 0px 0px;
 }
 
-
-.flexcontainer{
-    outline: 1px solid rgb(255, 0, 0);  
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 30px;
-    padding: 0px 0px 0px 0px;
-}
-.flexcontainer  
-div{
-    outline: 1px solid rgb(102, 255, 0);
-    background-color: #ffffff;
-    width: 1000px;
-    height: 200px;
-    padding: 0px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
-
-}
-
 }
 body, h1, p {
     outline: 1px solid rgb(255, 0, 0);
@@ -221,7 +234,6 @@ body, h1, p {
     font-size: 18px;
     
 }
-
 
 
 }
