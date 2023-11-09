@@ -100,18 +100,6 @@ p {
        
         }*/
     }
-
-    .aboutme{
-        outline: 1px solid rgb(13, 0, 255); 
-        font-family: 'lato'; 
-        width: 20%;
-        letter-spacing:0px;
-        padding: 10px 10px 10px 10px;
-        margin: 40px 20px 100px 50px ;
-        display: flex;
-        font-size: 16px;
-    
-    }
     .aboutmetitle {
         font-size: 50px;
         letter-spacing: -4px;
@@ -119,6 +107,23 @@ p {
         padding: 0;
 
     }
+
+    .aboutme{
+        outline: 1px solid rgb(13, 0, 255); 
+        font-family: 'lato'; 
+        /*width: 80%;*/
+        max-width: 1200px;
+        letter-spacing:0px;
+        padding: 10px 10px 10px 10px;
+       /*margin: 40px 20px 00px 50px ;*/
+       margin: 0 auto;
+       /* display: flex;*/
+        font-size: 16px;
+    
+    }
+   .mypictures{
+    display: flex;
+   }
     
 .mywork{
     outline: 1px solid rgb(0, 255, 60);
@@ -144,6 +149,11 @@ p {
     color: #ff0000;
 }
 
+section {
+    outline: 1px solid rgb(7, 109, 0); 
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 
 .myskills {
@@ -151,7 +161,7 @@ p {
     flex-wrap: nowrap;
     margin: 30px;
     padding: 0px 0px 10px 10px;
-    background-color: #DAD6CA;
+    background-color: #ffffff;
     display:inline-flex;
     
 }
@@ -173,7 +183,7 @@ p {
 }
 
 .flexcontainer{
-    outline: 1px solid rgb(85, 0, 255);  
+    outline: 1px solid rgb(0, 89, 255);  
     display: flex;
     flex-wrap: nowrap;
     margin: 50px;
@@ -183,7 +193,7 @@ p {
 
 .flexcontainer
 div{
-    outline: 1px solid rgb(102, 255, 0);
+    outline: 1px solid rgb(255, 0, 0);
     background-color: #ffffff;
     width: 0px;
     height: 0px;
