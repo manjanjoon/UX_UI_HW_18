@@ -159,10 +159,10 @@ section {
 .myskills {
     outline: 1px solid red; 
     flex-wrap: nowrap;
-    margin: 30px;
-    padding: 0px 0px 10px 10px;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
     background-color: #ffffff;
-    display:inline-flex;
+    display:flex;
     
 }
 .skilltitle{
